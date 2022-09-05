@@ -6,10 +6,10 @@ if [ ! -f box.txt ]; then
     echo "File box.txt created."
 fi
 
-for count in {12..13}
+for count in {1..4}
 do
-    echo $count >> box.txt
+    echo "Line #$count inserted." >> box.txt
     git add .
-    git commit -m "Added ${count}."
+    git commit -m "Added Line #${count}."
     git push
 done
