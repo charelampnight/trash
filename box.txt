@@ -3,3 +3,4 @@
 Line #1 inserted.
 Line #2 inserted.
 Line #3 inserted.
+Line #4 inserted.
